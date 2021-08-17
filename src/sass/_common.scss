@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+ul {
+  list-style: none;
+}

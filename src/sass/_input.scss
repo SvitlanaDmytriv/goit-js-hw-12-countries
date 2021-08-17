@@ -1,0 +1,15 @@
+.input {
+  display: block;
+  height: 24px;
+  min-width: 300px;
+  margin: 15px auto 0 auto;
+  text-align: center;
+}
+
+input::placeholder {
+  color: rgb(196, 194, 194);
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
