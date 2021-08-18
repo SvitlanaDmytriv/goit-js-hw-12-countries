@@ -1,4 +1,4 @@
-import refs from './refs'
+import refs from './refs.js'
 import countriesList from '../templates/countriesList.hbs'
 import oneCountry from '../templates/oneCountry.hbs'
 import notification from './notifications.js';
@@ -8,7 +8,8 @@ export default function addMarkup(countries) {
     
     if (countries.length === 1) {
         const markup = oneCountry(countries)
-        refs.containerEl.insertAdjacentHTML('beforeend',markup)
+        refs.containerEl.insertAdjacentHTML('beforeend', markup)
+        console.log(countries)
          return
     }
 
