@@ -1,4 +1,3 @@
-import refs from './refs.js'
 import fetchCountries  from './fetchCountries.js'
 import addMarkup  from './addMarkup.js';
 
